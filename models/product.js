@@ -1,7 +1,12 @@
-const Joi = require("./node_modules/joi");
+const Joi = require("joi");
 const {Schema, model} = require("mongoose");
 
 const codeRegexp = /^[0-9]{5}$/;
+
+
+
+
+
 
 const productSchema = Schema({
     name: {
